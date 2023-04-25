@@ -1,0 +1,142 @@
+[
+    {
+        "image": "Circuit/substrate.png",
+        "sockets": {
+            "up": "0s",
+            "right": "0s",
+            "down": "0s",
+            "left": "0s"
+        },
+        "angles": 1
+    },
+    {
+        "image": "Circuit/component.png",
+        "sockets": {
+            "up": "1s",
+            "right": "1s",
+            "down": "1s",
+            "left": "1s"
+        },
+        "angles": 1
+    },
+    {
+        "image": "Circuit/track.png",
+        "sockets": {
+            "up": "2s",
+            "right": "0s",
+            "down": "2s",
+            "left": "0s"
+        },
+        "angles": 2
+    },
+    {
+        "image": "Circuit/turn.png",
+        "sockets": {
+            "up": "2s",
+            "right": "2s",
+            "down": "0s",
+            "left": "0s"
+        },
+        "angles": 4
+    },
+    {
+        "image": "Circuit/t.png",
+        "sockets": {
+            "up": "0s",
+            "right": "2s",
+            "down": "2s",
+            "left": "2s"
+        },
+        "angles": 4
+    },
+    {
+        "image": "Circuit/skew.png",
+        "sockets": {
+            "up": "2s",
+            "right": "2s",
+            "down": "0s",
+            "left": "0s"
+        },
+        "angles": 4
+    },
+    {
+        "image": "Circuit/dskew.png",
+        "sockets": {
+            "up": "2s",
+            "right": "2s",
+            "down": "2s",
+            "left": "2s"
+        },
+        "angles": 2
+    },
+    {
+        "image": "Circuit/wire.png",
+        "sockets": {
+            "up": "0s",
+            "right": "3s",
+            "down": "0s",
+            "left": "3s"
+        },
+        "angles": 4
+    },
+    {
+        "image": "Circuit/bridge.png",
+        "sockets": {
+            "up": "2s",
+            "right": "3s",
+            "down": "2s",
+            "left": "3s"
+        },
+        "angles": 2
+    },
+    {
+        "image": "Circuit/transition.png",
+        "sockets": {
+            "up": "3s",
+            "right": "0s",
+            "down": "2s",
+            "left": "0s"
+        },
+        "angles": 4
+    },
+    {
+        "image": "Circuit/vias.png",
+        "sockets": {
+            "up": "2s",
+            "right": "0s",
+            "down": "0s",
+            "left": "0s"
+        },
+        "angles": 4
+    },
+    {
+        "image": "Circuit/viad.png",
+        "sockets": {
+            "up": "0s",
+            "right": "2s",
+            "down": "0s",
+            "left": "2s"
+        },
+        "angles": 2
+    },
+    {
+        "image": "Circuit/connection.png",
+        "sockets": {
+            "up": "2s",
+            "right": "0s",
+            "down": "1s",
+            "left": "0s"
+        },
+        "angles": 4
+    },
+    {
+        "image": "Circuit/corner.png",
+        "sockets": {
+            "up": "0s",
+            "right": "0s",
+            "down": "4",
+            "left": "4f"
+        },
+        "angles": 4
+    }
+]
