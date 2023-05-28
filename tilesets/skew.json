@@ -1,0 +1,12 @@
+[
+    {
+        "image": "Circuit/skew.png",
+        "sockets": {
+            "up": "2s",
+            "right": "2s",
+            "down": "0s",
+            "left": "0s"
+        },
+        "angles": 4
+    }
+]

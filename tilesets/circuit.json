@@ -123,9 +123,9 @@
         "image": "Circuit/connection.png",
         "sockets": {
             "up": "2s",
-            "right": "0s",
+            "right": "4",
             "down": "1s",
-            "left": "0s"
+            "left": "4f"
         },
         "angles": 4
     },
