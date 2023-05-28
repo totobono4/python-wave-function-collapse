@@ -127,8 +127,13 @@ class WFC():
             for tile in cell.superposition:
                 is_matching : bool = False
                 for determinor_tile in determinors:
-                    if tile.sockets[direction] == determinor_tile.sockets[opposite]:
-                        is_matching = True
+                    if tile.sockets[direction][0] == determinor_tile.sockets[opposite][0]:
+                        if tile.sockets[direction][1] == 's' and determinor_tile.sockets[opposite][1] == 's':
+                            is_matching = True
+                        if tile.sockets[direction][1] == 'f' and determinor_tile.sockets[opposite][1] != 'f':
+                            is_matching = True
+                        if tile.sockets[direction][1] != 'f' and determinor_tile.sockets[opposite][1] == 'f':
+                            is_matching = True
                 if is_matching:
                     superposition.append(tile)
             
@@ -168,8 +173,8 @@ class WFC():
             for cell in row:
                 cell.draw(screen)
 
-SCREEN_SIZE = 500
-GRID_SIZE = 5
+SCREEN_SIZE = 1000
+GRID_SIZE = 10
 CELL_SIZE = SCREEN_SIZE / GRID_SIZE
 
 pygame.init()
